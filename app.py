@@ -60,7 +60,7 @@ def edit(id):
 
 
 
-@app.route('/posts/new',methods=['GET','POST'])
+@app.route('/posts/flask_new',methods=['GET','POST'])
 def posts_new():
 
     if request.method == 'POST':
